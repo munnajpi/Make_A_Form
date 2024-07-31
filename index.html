@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="form_header">
+      <h2>Make a Complex Form</h2>
+    </div>
+    <div class="form_section">
+      <form>
+        <div class="form_inline">
+          <div class="inline_group">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" value="first-name" placeholder="Input your First Name">
+          </div>
+
+          <div class="inline_group">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" value="last-name" placeholder="Input your last-name">
+          </div>
+
+        </div>
+
+
+        <div class="form_inline">
+          <div class="inline_group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="user@gmail.com">
+          </div>
+
+          <div class="inline_group">
+            <label for="phone-number">Phone Number:</label>
+            <input type="phone-number" id="phone-number" placeholder="01886722582">
+          </div>
+        </div>
+
+        <div class="form_inline">
+          <div class="inline_group">
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="Japan">Japan</option>
+              <option value="tarkish">tarkish</option>
+            </select>
+          </div>
+
+          <div class="inline_group">
+            <label for="city">City:</label>
+            <select name="city" id="city">
+              <option value="Dhaka">Dhaka</option>
+              <option value="Korachi">Korachi</option>
+              <option value="Tokio">Tokio</option>
+              <option value="Istambul">Istambul</option>
+            </select>
+          </div>
+
+        </div>
+
+        <div class="inline_group">
+          <label for="gender">Gender:</label>
+          <div class="inline_radio">
+            <div class="inline_radio_group">
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label>
+            </div>
+            <div class="inline_radio_group">
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label>
+            </div>
+
+            <div class="inline_radio_group">
+              <input type="radio" id="other" name="gender" value="other">
+              <label for="other">other</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="inline_group bio">
+          <label for="short-bio">Short Bio:</label>
+          <textarea id="short-bio"></textarea>
+        </div>
+
+        <div class="form_inline">
+          <div class="inline_group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="password">
+          </div>
+
+          <div class="inline_group">
+            <label for="conform-password">Password:</label>
+            <input type="conform-password" id="conform-password" placeholder="conform-password">
+          </div>
+        </div>
+
+
+        <div class="checkbox">
+          <input type="checkbox" id="aggrement">
+          <label for="aggrement">I accept trams & condation</label>
+        </div>
+
+        <div class="inline_group btn">
+          <button class="btn reset" type="reset">Reset</button>
+          <button class="btn submit" type="submit">Submit</button>
+        </div>
+
+
+
+      </form>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
